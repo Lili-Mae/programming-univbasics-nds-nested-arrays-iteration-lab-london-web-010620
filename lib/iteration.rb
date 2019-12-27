@@ -27,7 +27,11 @@ def find_greater_pair(src)
   
   src.length.times do |index|
    item=src[index]
-   dest << "I love #{item[0]} and #{item[1]} on my pizza"
+   if item[0] > item[1]
+     dest << item[0]
+   else 
+     dest << item[1]
+   end 
   end
    
   return dest 
