@@ -8,12 +8,15 @@ def join_ingredients(src)
   # As such, there should be a new String for each inner array, or pair
   
  dest = []
+ 
+ dest << 
   
- #src.length.times 
+ src.length.times do |index|
+   
+ end
+   
  
  puts "I love #{src[0]} and #{src[1]} on my pizza"
- 
- 
   
 end
 
