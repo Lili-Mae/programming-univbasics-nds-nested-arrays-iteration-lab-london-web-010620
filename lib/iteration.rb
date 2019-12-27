@@ -9,17 +9,17 @@ def join_ingredients(src)
   
   ingredients = []
   
-  src.length.times 
+ # src.length.times 
   
   counter = 0
  
   while counter < array.length do
-    puts "I love " array[counter]
+    puts "I love #{array[counter]} and #{array[counter+1]}
     counter += 1
   end
   
   
-  puts "I love (element1) and (element2) on my pizza"
+ # puts "I love (element1) and (element2) on my pizza"
   
 end
 
