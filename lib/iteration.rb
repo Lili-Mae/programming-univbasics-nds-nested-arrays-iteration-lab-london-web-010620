@@ -46,4 +46,18 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+  
+  dest = []
+  
+  src.length.times do |index|
+   item=src[index]
+   if item[0] < item[1]
+     dest << item[0]
+   else 
+     dest << item[1]
+   end 
+  end
+   
+  return dest 
+  
 end
