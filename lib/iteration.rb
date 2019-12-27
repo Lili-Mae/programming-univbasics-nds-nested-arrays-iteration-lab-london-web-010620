@@ -47,17 +47,16 @@ def total_even_pairs(src)
   # the number was even. Review the operator documentation if you've forgotten
   # this!
   
-  dest = []
+  total = 0
   
   src.length.times do |index|
    item=src[index]
    if item[0] < item[1]
      dest << item[0]
-   else 
-     dest << item[1]
+     total += item[0] + item[1] 
    end 
   end
-   
-  return dest 
+  
+  return total
   
 end
