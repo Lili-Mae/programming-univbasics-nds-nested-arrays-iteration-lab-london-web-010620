@@ -9,12 +9,13 @@ def join_ingredients(src)
   
  dest = []
  
- dest << "I love #{src[0]} and #{src[1]} on my pizza"
+ #dest << "I love #{src[0]} and #{src[1]} on my pizza"
   
  src.length.times do |index|
-   
+   dest << "I love #{src[0]} and #{src[1]} on my pizza"
  end
    
+   return dest 
   
 end
 
