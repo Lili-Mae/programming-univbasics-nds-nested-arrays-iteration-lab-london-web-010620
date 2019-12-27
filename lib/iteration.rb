@@ -11,9 +11,9 @@ def join_ingredients(src)
   
  #src.length.times 
  
- puts "I love #{src[0]} and #{src[1]}
+ puts "I love #{src[0]} and #{src[1]} on my pizza"
  
- #puts "I love (element1) and (element2) on my pizza"
+ 
   
 end
 
